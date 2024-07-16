@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="testclass1-2">
+        <classes>
+
+            <class name="org.example.Class1">
+                <methods>
+                    <include name="C1fun1"/>
+                    <include name="C1fun2"/>
+                    <include name="C1fun3"/>
+                </methods>
+            </class>
+
+            <class name="org.example.Class2">
+                <methods>
+                    <include name="C2fun1"/>
+                    <include name="C2fun2"/>
+                    <exclude name="C2fun3"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+
+
+    <test name="testclass3">
+
+        <classes>
+            <class name="org.example.Class3"/>
+        </classes>
+
+
+    </test>
+
+
+</suite>

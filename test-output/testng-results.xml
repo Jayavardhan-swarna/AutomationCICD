@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-15T17:54:28 IST" name="All Test Suite" finished-at="2024-07-15T17:54:28 IST" duration-ms="67">
+    <groups>
+    </groups>
+    <test started-at="2024-07-15T17:54:28 IST" name="testclass1-2" finished-at="2024-07-15T17:54:28 IST" duration-ms="22">
+      <class name="org.example.Class2">
+        <test-method signature="C2fun1()[pri:0, instance:org.example.Class2@35fc6dc4]" started-at="2024-07-15T17:54:28 IST" name="C2fun1" finished-at="2024-07-15T17:54:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C2fun1 -->
+        <test-method signature="C2fun2()[pri:0, instance:org.example.Class2@35fc6dc4]" started-at="2024-07-15T17:54:28 IST" name="C2fun2" finished-at="2024-07-15T17:54:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C2fun2 -->
+      </class> <!-- org.example.Class2 -->
+      <class name="org.example.Class1">
+        <test-method signature="C1fun1()[pri:0, instance:org.example.Class1@4d49af10]" started-at="2024-07-15T17:54:28 IST" name="C1fun1" finished-at="2024-07-15T17:54:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C1fun1 -->
+        <test-method signature="C1fun3()[pri:0, instance:org.example.Class1@4d49af10]" started-at="2024-07-15T17:54:28 IST" name="C1fun3" finished-at="2024-07-15T17:54:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C1fun3 -->
+        <test-method signature="C1fun2()[pri:0, instance:org.example.Class1@4d49af10]" started-at="2024-07-15T17:54:28 IST" name="C1fun2" finished-at="2024-07-15T17:54:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C1fun2 -->
+      </class> <!-- org.example.Class1 -->
+    </test> <!-- testclass1-2 -->
+    <test started-at="2024-07-15T17:54:28 IST" name="testclass3" finished-at="2024-07-15T17:54:28 IST" duration-ms="2">
+      <class name="org.example.Class3">
+        <test-method signature="C3fun1()[pri:0, instance:org.example.Class3@55a561cf]" started-at="2024-07-15T17:54:28 IST" name="C3fun1" finished-at="2024-07-15T17:54:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C3fun1 -->
+        <test-method signature="C3fun2()[pri:0, instance:org.example.Class3@55a561cf]" started-at="2024-07-15T17:54:28 IST" name="C3fun2" finished-at="2024-07-15T17:54:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C3fun2 -->
+        <test-method signature="C3fun3()[pri:0, instance:org.example.Class3@55a561cf]" started-at="2024-07-15T17:54:28 IST" name="C3fun3" finished-at="2024-07-15T17:54:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C3fun3 -->
+      </class> <!-- org.example.Class3 -->
+    </test> <!-- testclass3 -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
