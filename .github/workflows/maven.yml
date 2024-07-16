@@ -27,8 +27,5 @@ jobs:
         distribution: 'temurin'
         cache: maven
 
-    - name: Set up Maven
-      run: echo "MAVEN_HOME=/Users/mac/Documents/2_Learn/1_QA/Installations/apache-maven-3.9.8" >> $GITHUB_ENV
-
     - name: Build with Maven
       run: mvn -B clean test -Ptestng
